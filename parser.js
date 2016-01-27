@@ -1163,11 +1163,6 @@ if( !Array.indexOf ) {
 		module.exports = Parser;
 	}
 
-	// global ender:false
-	else if( typeof ender === "undefined" ) {
-		this["Parser"] = Parser;
-	}
-
 	// global define:false
 	else if( typeof define === "function" && define.amd ) {
 		define( [], function()
