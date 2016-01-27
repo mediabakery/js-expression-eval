@@ -1,0 +1,16 @@
+
+# http://editorconfig.org
+root = true
+
+[*]
+indent_style = tab
+indent_size = 2
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+spaces_before_and_after_parameters = 1
+spaces_between_comma_and_parameters = 1
+spaces_around_brackets = outside
+
+[*.md]
+trim_trailing_whitespace = false
